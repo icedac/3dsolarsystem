@@ -1,0 +1,24 @@
+{
+  "name": "solar-system-simulation",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "targets": {
+    "default": {
+      "publicUrl": "./"
+    }
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.154.0"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.13",
+    "@types/three": "^0.173.0",
+    "parcel": "^2.9.3",
+    "typescript": "^4.9.0"
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+}

@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.venv/
+.parcel-cache/
+pnpm-lock.yaml
